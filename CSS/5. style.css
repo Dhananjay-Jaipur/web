@@ -1,0 +1,63 @@
+h1
+{
+width: 200px;
+height: 50px;
+background-color: aqua;
+border—width: 3px;
+border—style: dashedr;
+border—color: black;
+text-align: center;
+}
+
+h2
+{
+border: 2px solid brown;
+}
+
+div
+{
+height: 310px;
+width: 111px;
+border: 2px solid brown;
+border-radius: 15px;
+padding: 44px; /*clockwise*/
+}
+
+div
+{
+    background-color: black;
+    padding: 0%;
+
+    div
+    {
+        height: 100px;
+        width: 111px;
+        border: 2px solid brown;
+        border-radius: 50%;
+        background-color: red;
+    }
+    div
+    {
+        height: 100px;
+        width: 111px;
+        border: 2px solid brown;
+        border-radius: 50%;
+        
+    }
+    div
+    {
+        height: 100px;
+        width: 111px;
+        border: 2px solid brown;
+        border-radius: 50%;
+        background-color: green;
+    }
+}
+
+#red{
+    background-color: red;
+}
+
+#yellow{
+    background-color: yellow;
+}

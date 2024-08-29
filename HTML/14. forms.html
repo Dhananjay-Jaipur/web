@@ -1,0 +1,57 @@
+<b>Form:</b><br>
+use to collect data<br><br>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/data.php">
+        
+        <input type="text" placeholder="username"> <br>
+        <input type="password" placeholder="pass"> 
+        
+        <br><br>
+
+        <input type="radio" value="male" name="gender"> Male    <br>
+
+        <!-- by using lable you can chose by clicking on text writen but there you hav eto click on the box -->
+        <!-- write id in for -->
+        <label for="f">
+            <input type="radio" value="female" id="f" name="gender"> Female
+        </label>
+
+        <br><br>
+        
+        <i>language known:-</i> 
+        <br>
+        <label for="lang">
+            <input type="checkbox" value="hindi" id="lang" name="hindi"> hindi   <br>
+            <input type="checkbox" value="english" id="lang" name="english"> english   <br>
+            <input type="checkbox" value="sanskrit" id="lang" name="sanskrit"> sanskrit     <br>
+        </label>
+
+        <br><br>
+
+        <select>
+            <option name="delhi">delhi</option>
+            <option name="bikaner">bikaner</option>
+            <option name="jaipur">jaipur</option>
+        </select>
+
+        <br><br>
+
+        <textarea name="feedback" id="lang" placeholder="feedback">
+            feedback
+        </textarea>
+
+        <br><br>
+
+        <input type="submit" value="Submit"> <br><br>
+
+      </form>      
+</body>
+</html>
